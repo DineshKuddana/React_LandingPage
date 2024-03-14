@@ -1,0 +1,68 @@
+/* Home.css */
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color:aliceblue;
+  }
+  
+  .home-content {
+    max-width: 700px;
+  }
+  
+  .home-content h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(203, 49, 106);
+    
+  }
+  
+  .home-content .one {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(143, 12, 187);
+  }
+
+  .home-content .two {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: rgb(203, 3, 166);
+    font-weight: 500;
+    
+  }
+  
+  .home-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .home-image img:hover{
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .home-content {
+      max-width: 100%;
+      font-size: 12px;
+    }
+  
+    .home-image {
+      margin-bottom: 20px;
+    }
+  }
+  
